@@ -7,9 +7,9 @@ Credits: https://medium.com/@stanko.b.prvanovic/7-benefits-of-youtube-for-your-
 Our goal is to categorize the comment on YouTube channel so it will be easier for the author to understand what his audience is thinking of his/her content. Our goal here is to classify the comments made on the YouTube Cooking channel. Given a comment c, classify c in any one of Labels in L. L = \{1: Gratitude, 2: About recipe, 3: About Video, 4: Praising, 5: Hybrid, 6: unrelated, 7: Question/Suggestion\}. Let C be collection of comments on a video C = \{c1, c2, c3,.....c$_n$\}. Let there be L for category L = \{1, 2, 3, 4, 5, 6, 7\}.\newline
 Classify  $c \in C$ into $l \in L$
 ## Sources 
-* Youtube blog: https://medium.com/@milonimittal/whats-that-youtube-channel-about-973f04c72b4d (Must Read!)
-* Library: https://scikit-learn.org/stable/index.html (we use many models from this library)
-* Research paper: https://zenodo.org/record/2841848 (most of our work was inspired by this paper)
+* Youtube blog: https://medium.com/@milonimittal/whats-that-youtube-channel-about-973f04c72b4d 
+* Library: https://scikit-learn.org/stable/index.html (we use models from this library)
+* Research Data: https://zenodo.org/record/2841848 
 ## Real world/Business Objectives and constraints 
 ### Objectives:
 1. Predict the sentiment of a comment and categorize it.
@@ -39,8 +39,9 @@ You need to have installed following softwares and libraries in your machine bef
 ## Installing
 1. Python 3: https://www.python.org/downloads/
 2. Anaconda: https://www.anaconda.com/download/
-3. Scikit Learn: pip install -U scikit-learn
-4. NLTK: pip install --user -U nltk
+3. Jupyter
+4. Scikit Learn: pip install -U scikit-learn
+5. NLTK: pip install --user -U nltk
 
 
 ## Built With
