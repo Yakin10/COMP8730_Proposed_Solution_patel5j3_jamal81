@@ -12,11 +12,8 @@ Classify  $c \in C$ into $l \in L$
 * Research Data: https://zenodo.org/record/2841848 
 ## Real world/Business Objectives and constraints 
 ### Objectives:
-1. Predict the sentiment of a comment and categorize it.
+1. Predict the sentiment of a comment.
 2. Minimize the difference between predicted and actual sentiment 
-### Constraints:
-1. Some form of interpretability.
-2. 
 
 ## Type of Data:
 * There are 4900 unique user IDs.
